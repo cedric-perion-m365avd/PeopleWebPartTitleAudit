@@ -1,0 +1,27 @@
+# Sorties et rapports générés
+*.csv
+*.html
+*.json
+*.xml
+*.log
+
+# Dossiers de sortie
+output/
+out/
+
+# Modules PowerShell récupérés localement
+Modules/
+
+# Fichiers de session et profils de couverture
+*.pssession
+coverage.xml
+TestResults*.xml
+
+# Fichiers système
+Thumbs.db
+.DS_Store
+
+# Éditeurs
+.vs/
+.vscode/
+*.user
